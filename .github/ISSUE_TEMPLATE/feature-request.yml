@@ -1,0 +1,41 @@
+name: Feature request / 功能建议
+description: Propose a focused improvement / 提出明确的改进建议
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks / 提交前检查
+      options:
+        - label: I searched existing issues and did not find the same request. / 我已搜索现有 Issue，未发现相同建议。
+          required: true
+        - label: This request matches the project's local desktop prototype scope. / 该建议符合本项目的本地桌面原型定位。
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case / 问题或使用场景
+      description: Describe the user need before proposing an implementation. / 请先描述用户需求，再说明实现设想。
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution / 建议方案
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered / 考虑过的替代方案
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context / 补充信息
+      description: Add sanitized screenshots, sketches, or references when useful. / 可附上已脱敏的截图、草图或参考资料。

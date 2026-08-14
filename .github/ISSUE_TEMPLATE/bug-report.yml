@@ -1,0 +1,78 @@
+name: Bug report / Bug 报告
+description: Report a reproducible problem / 报告可复现的问题
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve AccountBindSchool. Do not include passwords, MAC addresses, tokens, or other sensitive data.
+
+        感谢你帮助改进 AccountBindSchool。请勿提交密码、MAC 地址、令牌或其他敏感信息。
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks / 提交前检查
+      options:
+        - label: I searched existing issues and did not find a duplicate. / 我已搜索现有 Issue，未发现重复问题。
+          required: true
+        - label: I removed credentials and device identifiers from logs and screenshots. / 我已从日志和截图中移除凭据及设备标识。
+          required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem description / 问题描述
+      description: What happened, and what were you trying to do? / 发生了什么？当时正在进行什么操作？
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 复现步骤
+      placeholder: |
+        1. Start the application...
+        2. Open...
+        3. Observe...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior / 预期行为
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / 实际行为
+    validations:
+      required: true
+
+  - type: input
+    id: os
+    attributes:
+      label: Operating system / 操作系统
+      placeholder: Windows 11, macOS 15, Ubuntu 24.04...
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: Python version / Python 版本
+      placeholder: Python 3.12.10
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Sanitized logs or screenshots / 已脱敏的日志或截图
+      description: Remove passwords, MAC addresses, usernames, paths containing personal data, and tokens. / 请移除密码、MAC 地址、用户名、含个人信息的路径及令牌。
+      render: shell
