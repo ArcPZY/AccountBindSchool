@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">AccountBindSchool</title>
+  <desc id="desc">A blue project banner showing device verification, administrator login, and school binding.</desc>
+  <defs>
+    <linearGradient id="background" x1="80" y1="20" x2="1120" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#081A35"/>
+      <stop offset="0.5" stop-color="#0B315B"/>
+      <stop offset="1" stop-color="#075B69"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#54A8FF"/>
+      <stop offset="1" stop-color="#31D6A7"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#001127" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1100" cy="30" r="210" fill="#28D4B3" opacity="0.07"/>
+  <circle cx="1020" cy="390" r="170" fill="#4D9FFF" opacity="0.08"/>
+
+  <g font-family="Inter, Segoe UI, Microsoft YaHei, sans-serif">
+    <g transform="translate(72 73)">
+      <rect width="60" height="60" rx="16" fill="url(#accent)"/>
+      <path d="M15 28 30 18l15 10v17H15V28Z" fill="#071D38" opacity="0.9"/>
+      <path d="M22 31h16M25 31v14M35 31v14M19 45h22" fill="none" stroke="#A9F4E3" stroke-width="3" stroke-linecap="round"/>
+      <text x="82" y="43" fill="#F7FBFF" font-size="34" font-weight="700" letter-spacing="0.2">AccountBindSchool</text>
+    </g>
+
+    <text x="72" y="185" fill="#F5FAFF" font-size="25" font-weight="600">轻量、清晰、可扩展的学校账号管理原型</text>
+    <text x="72" y="221" fill="#A9C7E5" font-size="17">Device admission · Admin account · School binding</text>
+
+    <g transform="translate(72 272)" font-size="15" font-weight="600">
+      <g>
+        <rect width="118" height="38" rx="19" fill="#2C78BE" fill-opacity="0.5" stroke="#62B5FF" stroke-opacity="0.45"/>
+        <text x="59" y="25" fill="#DDEFFF" text-anchor="middle">Python</text>
+      </g>
+      <g transform="translate(130)">
+        <rect width="164" height="38" rx="19" fill="#2C78BE" fill-opacity="0.5" stroke="#62B5FF" stroke-opacity="0.45"/>
+        <text x="82" y="25" fill="#DDEFFF" text-anchor="middle">CustomTkinter</text>
+      </g>
+      <g transform="translate(306)">
+        <rect width="132" height="38" rx="19" fill="#168977" fill-opacity="0.45" stroke="#49DEC0" stroke-opacity="0.5"/>
+        <text x="66" y="25" fill="#D9FFF6" text-anchor="middle">Local JSON</text>
+      </g>
+    </g>
+
+    <g transform="translate(695 49)" filter="url(#shadow)">
+      <rect width="430" height="322" rx="24" fill="#0C203D" stroke="#5FA9ED" stroke-opacity="0.32"/>
+      <rect width="430" height="54" rx="24" fill="#112B4E"/>
+      <path d="M0 30h430v24H0z" fill="#112B4E"/>
+      <circle cx="28" cy="27" r="6" fill="#FF6B70"/>
+      <circle cx="48" cy="27" r="6" fill="#F7C85C"/>
+      <circle cx="68" cy="27" r="6" fill="#51D39A"/>
+      <text x="215" y="33" text-anchor="middle" fill="#AFCBE6" font-size="13">AccountBindSchool</text>
+
+      <path d="M98 118H332M98 204H332" stroke="#5C83A9" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="5 7"/>
+
+      <g transform="translate(42 82)">
+        <circle cx="36" cy="36" r="36" fill="#174A78"/>
+        <path d="M22 37 31 46l20-22" fill="none" stroke="#67DDBE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="92" y="31" fill="#F0F7FF" font-size="17" font-weight="700">设备验证</text>
+        <text x="92" y="54" fill="#82A8CB" font-size="13">Device check</text>
+      </g>
+
+      <g transform="translate(42 168)">
+        <circle cx="36" cy="36" r="36" fill="#174A78"/>
+        <circle cx="36" cy="29" r="10" fill="none" stroke="#77BFFF" stroke-width="4"/>
+        <path d="M19 52c4-11 30-11 34 0" fill="none" stroke="#77BFFF" stroke-width="4" stroke-linecap="round"/>
+        <text x="92" y="31" fill="#F0F7FF" font-size="17" font-weight="700">管理员登录</text>
+        <text x="92" y="54" fill="#82A8CB" font-size="13">Admin sign-in</text>
+      </g>
+
+      <g transform="translate(42 254)">
+        <circle cx="36" cy="36" r="36" fill="#17665F"/>
+        <path d="M18 31 36 20l18 11v21H18V31Z" fill="none" stroke="#6AE2C6" stroke-width="4" stroke-linejoin="round"/>
+        <path d="M28 35v17M44 35v17" stroke="#6AE2C6" stroke-width="3"/>
+        <text x="92" y="31" fill="#F0F7FF" font-size="17" font-weight="700">学校绑定</text>
+        <text x="92" y="54" fill="#82A8CB" font-size="13">School binding</text>
+      </g>
+
+      <g transform="translate(370 101)">
+        <circle r="15" fill="#1C846F"/>
+        <path d="m-6 0 4 4 8-9" fill="none" stroke="#B9FFEE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(370 187)">
+        <circle r="15" fill="#1C628F"/>
+        <path d="m-6 0 4 4 8-9" fill="none" stroke="#D7F1FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+      <g transform="translate(370 273)">
+        <circle r="15" fill="#1C846F"/>
+        <path d="m-6 0 4 4 8-9" fill="none" stroke="#B9FFEE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
+    </g>
+  </g>
+</svg>

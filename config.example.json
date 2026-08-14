@@ -1,0 +1,38 @@
+{
+  "mac_whitelist": [],
+  "admin_account": {
+    "username": "admin",
+    "password": "change-me",
+    "bound_school": "北京第一中学"
+  },
+  "schools": {
+    "公办": [
+      "北京第一中学",
+      "上海实验中学",
+      "深圳外国语学校",
+      "广州市第二中学",
+      "成都七中"
+    ],
+    "民办": [
+      "枫叶国际学校",
+      "德威国际学校",
+      "惠立学校",
+      "包玉刚实验学校",
+      "世界外国语学校"
+    ],
+    "高职": [
+      "北京职业技术学院",
+      "上海工艺美术职业学院",
+      "深圳职业技术大学",
+      "天津职业大学",
+      "重庆工业职业技术学院"
+    ]
+  },
+  "api_config": {
+    "base_url": "https://api.example.com",
+    "endpoints": {
+      "change_password": "/admin/password",
+      "change_school": "/admin/school"
+    }
+  }
+}
