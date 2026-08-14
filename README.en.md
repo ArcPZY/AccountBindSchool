@@ -6,13 +6,17 @@
 
 A local desktop prototype built with Python and CustomTkinter for device allowlisting, administrator login, password changes, and school binding management.
 
-[简体中文](README.md) · [Report an issue](https://github.com/ArcPZY/AccountBindSchool/issues) · [Contributing](#contributing)
+[简体中文](README.md) · [Features](#features) · [Quick start](#quick-start) · [Configuration](#configuration) · [Security](#security-boundaries) · [Star History](#star-history) · [Contributing](#contributing)
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?logo=python&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.2.1-1F6AA5)
-![Storage](https://img.shields.io/badge/Storage-JSON-5E5E5E)
-![Status](https://img.shields.io/badge/Status-Prototype-F59E0B)
-![License](https://img.shields.io/badge/License-MIT-22C55E)
+<a href="https://github.com/ArcPZY/AccountBindSchool/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<a href="https://github.com/ArcPZY/AccountBindSchool/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<a href="https://github.com/ArcPZY/AccountBindSchool/commits/main"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<br />
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
+<img alt="CustomTkinter 5.2.1" src="https://img.shields.io/badge/CustomTkinter-5.2.1-1F6AA5?style=flat-square" />
+<img alt="JSON Storage" src="https://img.shields.io/badge/Storage-JSON-5E5E5E?style=flat-square" />
+<img alt="Prototype Status" src="https://img.shields.io/badge/Status-Prototype-F59E0B?style=flat-square" />
 
 </div>
 
@@ -245,6 +249,18 @@ Use the Python command in Quick start to obtain the MAC address and make sure it
 Add a new key and school array to the `schools` object. The UI creates a tab from each key automatically; no UI code changes are required.
 
 </details>
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=ArcPZY%2FAccountBindSchool&amp;type=date&amp;legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ArcPZY/AccountBindSchool&amp;type=Date&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ArcPZY/AccountBindSchool&amp;type=Date" />
+    <img alt="AccountBindSchool Star History Chart" src="https://api.star-history.com/svg?repos=ArcPZY/AccountBindSchool&amp;type=Date" />
+  </picture>
+</a>
+
+Star History generates this chart in real time, so it updates automatically as the project gains stars.
 
 ## License
 

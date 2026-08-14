@@ -6,13 +6,17 @@
 
 一个基于 Python 与 CustomTkinter 的本地桌面工具，用于演示设备白名单校验、管理员登录、密码修改与学校绑定管理。
 
-[English](README.en.md) · [报告问题](https://github.com/ArcPZY/AccountBindSchool/issues) · [参与贡献](#参与贡献)
+[English](README.en.md) · [功能](#功能) · [快速开始](#快速开始) · [配置](#配置说明) · [安全](#安全边界) · [Star History](#star-history) · [参与贡献](#参与贡献)
 
-![Python](https://img.shields.io/badge/Python-3.7%2B-3776AB?logo=python&logoColor=white)
-![CustomTkinter](https://img.shields.io/badge/CustomTkinter-5.2.1-1F6AA5)
-![Storage](https://img.shields.io/badge/Storage-JSON-5E5E5E)
-![Status](https://img.shields.io/badge/Status-Prototype-F59E0B)
-![License](https://img.shields.io/badge/License-MIT-22C55E)
+<a href="https://github.com/ArcPZY/AccountBindSchool/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<a href="https://github.com/ArcPZY/AccountBindSchool/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<a href="https://github.com/ArcPZY/AccountBindSchool/commits/main"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<a href="LICENSE"><img alt="MIT License" src="https://img.shields.io/github/license/ArcPZY/AccountBindSchool?style=flat-square" /></a>
+<br />
+<img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" />
+<img alt="CustomTkinter 5.2.1" src="https://img.shields.io/badge/CustomTkinter-5.2.1-1F6AA5?style=flat-square" />
+<img alt="JSON Storage" src="https://img.shields.io/badge/Storage-JSON-5E5E5E?style=flat-square" />
+<img alt="Prototype Status" src="https://img.shields.io/badge/Status-Prototype-F59E0B?style=flat-square" />
 
 </div>
 
@@ -245,6 +249,18 @@ python main.py
 直接在 `schools` 对象中增加键和学校数组。程序会根据键名动态创建新的标签页，无需修改 UI 代码。
 
 </details>
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=ArcPZY%2FAccountBindSchool&amp;type=date&amp;legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ArcPZY/AccountBindSchool&amp;type=Date&amp;theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ArcPZY/AccountBindSchool&amp;type=Date" />
+    <img alt="AccountBindSchool Star History Chart" src="https://api.star-history.com/svg?repos=ArcPZY/AccountBindSchool&amp;type=Date" />
+  </picture>
+</a>
+
+该趋势图由 Star History 实时生成，会随项目获得的 Stars 自动更新。
 
 ## 许可证
 

@@ -59,29 +59,35 @@
       <circle cx="68" cy="27" r="6" fill="#51D39A"/>
       <text x="215" y="33" text-anchor="middle" fill="#AFCBE6" font-size="13">AccountBindSchool</text>
 
-      <path d="M98 118H332M98 204H332" stroke="#5C83A9" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="5 7"/>
+      <path d="M98 101H332M98 187H332M98 273H332" stroke="#5C83A9" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="5 7"/>
 
-      <g transform="translate(42 82)">
-        <circle cx="36" cy="36" r="36" fill="#174A78"/>
-        <path d="M22 37 31 46l20-22" fill="none" stroke="#67DDBE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-        <text x="92" y="31" fill="#F0F7FF" font-size="17" font-weight="700">设备验证</text>
-        <text x="92" y="54" fill="#82A8CB" font-size="13">Device check</text>
+      <g transform="translate(42 67)">
+        <g transform="translate(36 36) scale(0.87) translate(-36 -36)">
+          <circle cx="36" cy="36" r="30" fill="#174A78"/>
+          <path d="M22 37 31 46l20-22" fill="none" stroke="#67DDBE" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        <text x="92" y="25" fill="#F0F7FF" font-size="17" font-weight="700">设备验证</text>
+        <text x="92" y="48" fill="#82A8CB" font-size="13">Device check</text>
       </g>
 
-      <g transform="translate(42 168)">
-        <circle cx="36" cy="36" r="36" fill="#174A78"/>
-        <circle cx="36" cy="29" r="10" fill="none" stroke="#77BFFF" stroke-width="4"/>
-        <path d="M19 52c4-11 30-11 34 0" fill="none" stroke="#77BFFF" stroke-width="4" stroke-linecap="round"/>
-        <text x="92" y="31" fill="#F0F7FF" font-size="17" font-weight="700">管理员登录</text>
-        <text x="92" y="54" fill="#82A8CB" font-size="13">Admin sign-in</text>
+      <g transform="translate(42 153)">
+        <g transform="translate(36 36) scale(0.87) translate(-36 -36)">
+          <circle cx="36" cy="36" r="30" fill="#174A78"/>
+          <circle cx="36" cy="29" r="10" fill="none" stroke="#77BFFF" stroke-width="4"/>
+          <path d="M19 52c4-11 30-11 34 0" fill="none" stroke="#77BFFF" stroke-width="4" stroke-linecap="round"/>
+        </g>
+        <text x="92" y="25" fill="#F0F7FF" font-size="17" font-weight="700">管理员登录</text>
+        <text x="92" y="48" fill="#82A8CB" font-size="13">Admin sign-in</text>
       </g>
 
-      <g transform="translate(42 254)">
-        <circle cx="36" cy="36" r="36" fill="#17665F"/>
-        <path d="M18 31 36 20l18 11v21H18V31Z" fill="none" stroke="#6AE2C6" stroke-width="4" stroke-linejoin="round"/>
-        <path d="M28 35v17M44 35v17" stroke="#6AE2C6" stroke-width="3"/>
-        <text x="92" y="31" fill="#F0F7FF" font-size="17" font-weight="700">学校绑定</text>
-        <text x="92" y="54" fill="#82A8CB" font-size="13">School binding</text>
+      <g transform="translate(42 239)">
+        <g transform="translate(36 36) scale(0.87) translate(-36 -36)">
+          <circle cx="36" cy="36" r="30" fill="#17665F"/>
+          <path d="M18 31 36 20l18 11v21H18V31Z" fill="none" stroke="#6AE2C6" stroke-width="4" stroke-linejoin="round"/>
+          <path d="M28 35v17M44 35v17" stroke="#6AE2C6" stroke-width="3"/>
+        </g>
+        <text x="92" y="25" fill="#F0F7FF" font-size="17" font-weight="700">学校绑定</text>
+        <text x="92" y="48" fill="#82A8CB" font-size="13">School binding</text>
       </g>
 
       <g transform="translate(370 101)">
